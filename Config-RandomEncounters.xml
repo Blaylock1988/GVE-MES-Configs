@@ -5,7 +5,7 @@
   <SpawnTimerTrigger>300</SpawnTimerTrigger>
   <PlayerTravelDistance>1500</PlayerTravelDistance>
   <MaxShipsPerArea>1</MaxShipsPerArea>
-  <AreaSize>25000</AreaSize>
+  <AreaSize>2500000</AreaSize>
   <MinSpawnDistanceFromPlayer>7000</MinSpawnDistanceFromPlayer>
   <MaxSpawnDistanceFromPlayer>11000</MaxSpawnDistanceFromPlayer>
   <MinDistanceFromOtherEntities>3000</MinDistanceFromOtherEntities>
