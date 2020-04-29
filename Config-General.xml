@@ -4,7 +4,7 @@
   <DebugMode>false</DebugMode>
   <EnableSpaceCargoShips>false</EnableSpaceCargoShips>
   <EnablePlanetaryCargoShips>false</EnablePlanetaryCargoShips>
-  <EnableRandomEncounters>true</EnableRandomEncounters>
+  <EnableRandomEncounters>false</EnableRandomEncounters>
   <EnablePlanetaryInstallations>false</EnablePlanetaryInstallations>
   <EnableBossEncounters>true</EnableBossEncounters>
   <EnableGlobalNPCWeaponRandomizer>true</EnableGlobalNPCWeaponRandomizer>
