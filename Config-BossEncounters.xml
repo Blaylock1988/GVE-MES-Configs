@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-16"?>
 <ConfigBossEncounters xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <PlayerSpawnCooldown>7200</PlayerSpawnCooldown>
-  <SpawnTimerTrigger>300</SpawnTimerTrigger>
+  <PlayerSpawnCooldown>10800</PlayerSpawnCooldown>
+  <SpawnTimerTrigger>600</SpawnTimerTrigger>
   <SignalActiveTimer>1200</SignalActiveTimer>
   <MaxShipsPerArea>1</MaxShipsPerArea>
   <AreaSize>25000</AreaSize>
-  <TriggerDistance>1000</TriggerDistance>
+  <TriggerDistance>2000</TriggerDistance>
   <PathCalculationAttempts>25</PathCalculationAttempts>
   <MinCoordsDistanceSpace>7000</MinCoordsDistanceSpace>
   <MaxCoordsDistanceSpace>11000</MaxCoordsDistanceSpace>
