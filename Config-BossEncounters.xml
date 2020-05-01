@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-16"?>
 <ConfigBossEncounters xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <PlayerSpawnCooldown>10800</PlayerSpawnCooldown>
+  <PlayerSpawnCooldown>7200</PlayerSpawnCooldown>
   <SpawnTimerTrigger>600</SpawnTimerTrigger>
   <SignalActiveTimer>1200</SignalActiveTimer>
   <MaxShipsPerArea>1</MaxShipsPerArea>
