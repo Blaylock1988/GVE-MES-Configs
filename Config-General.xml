@@ -2,7 +2,7 @@
 <ConfigGeneral xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ModVersion>1.081</ModVersion>
   <DebugMode>false</DebugMode>
-  <EnableSpaceCargoShips>false</EnableSpaceCargoShips>
+  <EnableSpaceCargoShips>true</EnableSpaceCargoShips>
   <EnablePlanetaryCargoShips>false</EnablePlanetaryCargoShips>
   <EnableRandomEncounters>false</EnableRandomEncounters>
   <EnablePlanetaryInstallations>false</EnablePlanetaryInstallations>

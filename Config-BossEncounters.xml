@@ -4,7 +4,7 @@
   <SpawnTimerTrigger>600</SpawnTimerTrigger>
   <SignalActiveTimer>1200</SignalActiveTimer>
   <MaxShipsPerArea>1</MaxShipsPerArea>
-  <AreaSize>25000</AreaSize>
+  <AreaSize>50000</AreaSize>
   <TriggerDistance>2000</TriggerDistance>
   <PathCalculationAttempts>25</PathCalculationAttempts>
   <MinCoordsDistanceSpace>7000</MinCoordsDistanceSpace>
@@ -15,11 +15,11 @@
   <MinPlanetAltitude>1000</MinPlanetAltitude>
   <MinSignalDistFromOtherEntities>3000</MinSignalDistFromOtherEntities>
   <MinSpawnDistFromCoords>5000</MinSpawnDistFromCoords>
-  <MaxSpawnDistFromCoords>50000</MaxSpawnDistFromCoords>
+  <MaxSpawnDistFromCoords>45000</MaxSpawnDistFromCoords>
   <MinAirDensity>0.65</MinAirDensity>
   <UseMaxSpawnGroupFrequency>false</UseMaxSpawnGroupFrequency>
   <MaxSpawnGroupFrequency>5</MaxSpawnGroupFrequency>
-  <DespawnDistanceFromPlayer>50000</DespawnDistanceFromPlayer>
+  <DespawnDistanceFromPlayer>5000</DespawnDistanceFromPlayer>
   <UseCleanupSettings>true</UseCleanupSettings>
   <CleanupUseDistance>true</CleanupUseDistance>
   <CleanupUseTimer>true</CleanupUseTimer>
