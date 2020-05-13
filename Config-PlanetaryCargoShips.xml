@@ -19,7 +19,7 @@
   <MaxPathDistance>15000</MaxPathDistance>
   <PathStepCheckDistance>100</PathStepCheckDistance>
   <DespawnDistanceFromEndPath>750</DespawnDistanceFromEndPath>
-  <DespawnDistanceFromPlayer>1000</DespawnDistanceFromPlayer>
+  <DespawnDistanceFromPlayer>15000</DespawnDistanceFromPlayer>
   <DespawnAltitude>5000</DespawnAltitude>
   <UseMinimumSpeed>false</UseMinimumSpeed>
   <MinimumSpeed>10</MinimumSpeed>
@@ -33,13 +33,13 @@
   <CleanupUseBlockLimit>false</CleanupUseBlockLimit>
   <CleanupDistanceStartsTimer>false</CleanupDistanceStartsTimer>
   <CleanupResetTimerWithinDistance>false</CleanupResetTimerWithinDistance>
-  <CleanupDistanceTrigger>25000</CleanupDistanceTrigger>
-  <CleanupTimerTrigger>1800</CleanupTimerTrigger>
+  <CleanupDistanceTrigger>1000</CleanupDistanceTrigger>
+  <CleanupTimerTrigger>60</CleanupTimerTrigger>
   <CleanupBlockLimitTrigger>0</CleanupBlockLimitTrigger>
   <CleanupIncludeUnowned>true</CleanupIncludeUnowned>
   <CleanupUnpoweredOverride>true</CleanupUnpoweredOverride>
-  <CleanupUnpoweredDistanceTrigger>25000</CleanupUnpoweredDistanceTrigger>
-  <CleanupUnpoweredTimerTrigger>900</CleanupUnpoweredTimerTrigger>
+  <CleanupUnpoweredDistanceTrigger>2000</CleanupUnpoweredDistanceTrigger>
+  <CleanupUnpoweredTimerTrigger>300</CleanupUnpoweredTimerTrigger>
   <UseBlockDisable>false</UseBlockDisable>
   <DisableAirVent>false</DisableAirVent>
   <DisableAntenna>false</DisableAntenna>

@@ -19,7 +19,7 @@
   <MinAirDensity>0.65</MinAirDensity>
   <UseMaxSpawnGroupFrequency>false</UseMaxSpawnGroupFrequency>
   <MaxSpawnGroupFrequency>5</MaxSpawnGroupFrequency>
-  <DespawnDistanceFromPlayer>5000</DespawnDistanceFromPlayer>
+  <DespawnDistanceFromPlayer>50000</DespawnDistanceFromPlayer>
   <UseCleanupSettings>true</UseCleanupSettings>
   <CleanupUseDistance>true</CleanupUseDistance>
   <CleanupUseTimer>true</CleanupUseTimer>
