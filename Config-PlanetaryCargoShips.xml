@@ -29,7 +29,7 @@
   <MaxSpawnGroupFrequency>5</MaxSpawnGroupFrequency>
   <UseCleanupSettings>true</UseCleanupSettings>
   <CleanupUseDistance>true</CleanupUseDistance>
-  <CleanupUseTimer>false</CleanupUseTimer>
+  <CleanupUseTimer>true</CleanupUseTimer>
   <CleanupUseBlockLimit>false</CleanupUseBlockLimit>
   <CleanupDistanceStartsTimer>false</CleanupDistanceStartsTimer>
   <CleanupResetTimerWithinDistance>false</CleanupResetTimerWithinDistance>
