@@ -123,7 +123,7 @@
     <string>JumpDriveDisruptionWeapon</string>
   </WeaponReplacerTargetBlacklist>
   <WeaponReplacerTargetWhitelist />
-  <UseGlobalBlockReplacer>false</UseGlobalBlockReplacer>
+  <UseGlobalBlockReplacer>true</UseGlobalBlockReplacer>
   <GlobalBlockReplacerReference />
   <GlobalBlockReplacerProfiles>
     <string>MES-ProprietaryValuableBlocks</string>
