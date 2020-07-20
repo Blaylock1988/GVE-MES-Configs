@@ -8,12 +8,12 @@
   <AreaSize>50000</AreaSize>
   <MaxSpawnAttempts>10</MaxSpawnAttempts>
   <MinPathDistanceFromPlayer>2000</MinPathDistanceFromPlayer>
-  <MaxPathDistanceFromPlayer>4000</MaxPathDistanceFromPlayer>
+  <MaxPathDistanceFromPlayer>4500</MaxPathDistanceFromPlayer>
   <MinLunarSpawnHeight>3500</MinLunarSpawnHeight>
   <MaxLunarSpawnHeight>4500</MaxLunarSpawnHeight>
   <MinSpawnDistFromEntities>1000</MinSpawnDistFromEntities>
-  <MinPathDistance>20000</MinPathDistance>
-  <MaxPathDistance>25000</MaxPathDistance>
+  <MinPathDistance>15000</MinPathDistance>
+  <MaxPathDistance>20000</MaxPathDistance>
   <PathCheckStep>150</PathCheckStep>
   <DespawnDistanceFromEndPath>1000</DespawnDistanceFromEndPath>
   <DespawnDistanceFromPlayer>5000</DespawnDistanceFromPlayer>
@@ -38,9 +38,9 @@
   <CleanupUseDistance>true</CleanupUseDistance>
   <CleanupUseTimer>true</CleanupUseTimer>
   <CleanupUseBlockLimit>false</CleanupUseBlockLimit>
-  <CleanupDistanceStartsTimer>false</CleanupDistanceStartsTimer>
+  <CleanupDistanceStartsTimer>true</CleanupDistanceStartsTimer>
   <CleanupResetTimerWithinDistance>false</CleanupResetTimerWithinDistance>
-  <CleanupDistanceTrigger>1000</CleanupDistanceTrigger>
+  <CleanupDistanceTrigger>10000</CleanupDistanceTrigger>
   <CleanupTimerTrigger>60</CleanupTimerTrigger>
   <CleanupBlockLimitTrigger>0</CleanupBlockLimitTrigger>
   <CleanupIncludeUnowned>true</CleanupIncludeUnowned>
@@ -93,4 +93,4 @@
   <DisableThruster>false</DisableThruster>
   <DisableWelder>false</DisableWelder>
   <DisableUpgradeModule>false</DisableUpgradeModule>
-</ConfigBossEncounters>
+</ConfigSpaceCargoShips>
