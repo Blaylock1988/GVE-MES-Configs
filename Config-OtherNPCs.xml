@@ -9,25 +9,25 @@
   <CleanupDistanceStartsTimer>false</CleanupDistanceStartsTimer>
   <CleanupResetTimerWithinDistance>false</CleanupResetTimerWithinDistance>
   <CleanupDistanceTrigger>1000</CleanupDistanceTrigger>
-  <CleanupTimerTrigger>60</CleanupTimerTrigger>
+  <CleanupTimerTrigger>15</CleanupTimerTrigger>
   <CleanupBlockLimitTrigger>0</CleanupBlockLimitTrigger>
   <CleanupIncludeUnowned>true</CleanupIncludeUnowned>
-  <CleanupUnpoweredOverride>true</CleanupUnpoweredOverride>
-  <CleanupUnpoweredDistanceTrigger>2000</CleanupUnpoweredDistanceTrigger>
-  <CleanupUnpoweredTimerTrigger>300</CleanupUnpoweredTimerTrigger>
-  <UseBlockDisable>false</UseBlockDisable>
-  <DisableAirVent>false</DisableAirVent>
+  <CleanupUnpoweredOverride>false</CleanupUnpoweredOverride>
+  <CleanupUnpoweredDistanceTrigger>1000</CleanupUnpoweredDistanceTrigger>
+  <CleanupUnpoweredTimerTrigger>15</CleanupUnpoweredTimerTrigger>
+  <UseBlockDisable>true</UseBlockDisable>
+  <DisableAirVent>true</DisableAirVent>
   <DisableAntenna>false</DisableAntenna>
   <DisableArtificialMass>false</DisableArtificialMass>
-  <DisableAssembler>false</DisableAssembler>
+  <DisableAssembler>true</DisableAssembler>
   <DisableBattery>false</DisableBattery>
   <DisableBeacon>false</DisableBeacon>
-  <DisableCollector>false</DisableCollector>
-  <DisableConnector>false</DisableConnector>
-  <DisableConveyorSorter>false</DisableConveyorSorter>
+  <DisableCollector>true</DisableCollector>
+  <DisableConnector>true</DisableConnector>
+  <DisableConveyorSorter>true</DisableConveyorSorter>
   <DisableDecoy>false</DisableDecoy>
   <DisableDrill>false</DisableDrill>
-  <DisableJumpDrive>false</DisableJumpDrive>
+  <DisableJumpDrive>true</DisableJumpDrive>
   <DisableGasGenerator>false</DisableGasGenerator>
   <DisableGasTank>false</DisableGasTank>
   <DisableGatlingGun>false</DisableGatlingGun>
@@ -36,20 +36,20 @@
   <DisableGrinder>false</DisableGrinder>
   <DisableGyro>false</DisableGyro>
   <DisableInteriorTurret>false</DisableInteriorTurret>
-  <DisableLandingGear>false</DisableLandingGear>
-  <DisableLaserAntenna>false</DisableLaserAntenna>
+  <DisableLandingGear>true</DisableLandingGear>
+  <DisableLaserAntenna>true</DisableLaserAntenna>
   <DisableLcdPanel>false</DisableLcdPanel>
   <DisableLightBlock>false</DisableLightBlock>
-  <DisableMedicalRoom>false</DisableMedicalRoom>
+  <DisableMedicalRoom>true</DisableMedicalRoom>
   <DisableMergeBlock>false</DisableMergeBlock>
   <DisableMissileTurret>false</DisableMissileTurret>
   <DisableOxygenFarm>false</DisableOxygenFarm>
   <DisableParachuteHatch>false</DisableParachuteHatch>
-  <DisablePiston>false</DisablePiston>
+  <DisablePiston>true</DisablePiston>
   <DisableProgrammableBlock>false</DisableProgrammableBlock>
   <DisableProjector>false</DisableProjector>
   <DisableReactor>false</DisableReactor>
-  <DisableRefinery>false</DisableRefinery>
+  <DisableRefinery>true</DisableRefinery>
   <DisableRocketLauncher>false</DisableRocketLauncher>
   <DisableReloadableRocketLauncher>false</DisableReloadableRocketLauncher>
   <DisableRotor>false</DisableRotor>
@@ -60,5 +60,5 @@
   <DisableTimerBlock>false</DisableTimerBlock>
   <DisableThruster>false</DisableThruster>
   <DisableWelder>false</DisableWelder>
-  <DisableUpgradeModule>false</DisableUpgradeModule>
+  <DisableUpgradeModule>true</DisableUpgradeModule>
 </ConfigOtherNPCs>

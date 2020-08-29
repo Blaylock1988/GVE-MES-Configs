@@ -27,17 +27,17 @@
   <CleanupDistanceStartsTimer>false</CleanupDistanceStartsTimer>
   <CleanupResetTimerWithinDistance>false</CleanupResetTimerWithinDistance>
   <CleanupDistanceTrigger>1000</CleanupDistanceTrigger>
-  <CleanupTimerTrigger>60</CleanupTimerTrigger>
+  <CleanupTimerTrigger>15</CleanupTimerTrigger>
   <CleanupBlockLimitTrigger>0</CleanupBlockLimitTrigger>
   <CleanupIncludeUnowned>true</CleanupIncludeUnowned>
-  <CleanupUnpoweredOverride>true</CleanupUnpoweredOverride>
-  <CleanupUnpoweredDistanceTrigger>2000</CleanupUnpoweredDistanceTrigger>
-  <CleanupUnpoweredTimerTrigger>300</CleanupUnpoweredTimerTrigger>
+  <CleanupUnpoweredOverride>false</CleanupUnpoweredOverride>
+  <CleanupUnpoweredDistanceTrigger>1000</CleanupUnpoweredDistanceTrigger>
+  <CleanupUnpoweredTimerTrigger>15</CleanupUnpoweredTimerTrigger>
   <UseBlockDisable>true</UseBlockDisable>
   <DisableAirVent>true</DisableAirVent>
   <DisableAntenna>false</DisableAntenna>
   <DisableArtificialMass>false</DisableArtificialMass>
-  <DisableAssembler>false</DisableAssembler>
+  <DisableAssembler>true</DisableAssembler>
   <DisableBattery>false</DisableBattery>
   <DisableBeacon>false</DisableBeacon>
   <DisableCollector>true</DisableCollector>
@@ -55,7 +55,7 @@
   <DisableGyro>false</DisableGyro>
   <DisableInteriorTurret>false</DisableInteriorTurret>
   <DisableLandingGear>true</DisableLandingGear>
-  <DisableLaserAntenna>false</DisableLaserAntenna>
+  <DisableLaserAntenna>true</DisableLaserAntenna>
   <DisableLcdPanel>false</DisableLcdPanel>
   <DisableLightBlock>false</DisableLightBlock>
   <DisableMedicalRoom>true</DisableMedicalRoom>
@@ -67,7 +67,7 @@
   <DisableProgrammableBlock>false</DisableProgrammableBlock>
   <DisableProjector>false</DisableProjector>
   <DisableReactor>false</DisableReactor>
-  <DisableRefinery>false</DisableRefinery>
+  <DisableRefinery>true</DisableRefinery>
   <DisableRocketLauncher>false</DisableRocketLauncher>
   <DisableReloadableRocketLauncher>false</DisableReloadableRocketLauncher>
   <DisableRotor>false</DisableRotor>
@@ -78,5 +78,5 @@
   <DisableTimerBlock>false</DisableTimerBlock>
   <DisableThruster>false</DisableThruster>
   <DisableWelder>false</DisableWelder>
-  <DisableUpgradeModule>false</DisableUpgradeModule>
+  <DisableUpgradeModule>true</DisableUpgradeModule>
 </ConfigBossEncounters>
