@@ -7,9 +7,9 @@
   <EnableRandomEncounters>false</EnableRandomEncounters>
   <EnablePlanetaryInstallations>false</EnablePlanetaryInstallations>
   <EnableBossEncounters>true</EnableBossEncounters>
-  <EnableGlobalNPCWeaponRandomizer>true</EnableGlobalNPCWeaponRandomizer>
+  <EnableGlobalNPCWeaponRandomizer>false</EnableGlobalNPCWeaponRandomizer>
   <EnableGlobalNPCShieldProvider>false</EnableGlobalNPCShieldProvider>
-  <EnableLegacySpaceCargoShipDetection>true</EnableLegacySpaceCargoShipDetection>
+  <EnableLegacySpaceCargoShipDetection>false</EnableLegacySpaceCargoShipDetection>
   <UseModIdSelectionForSpawning>true</UseModIdSelectionForSpawning>
   <UseWeightedModIdSelection>true</UseWeightedModIdSelection>
   <LowWeightModIdSpawnGroups>10</LowWeightModIdSpawnGroups>
@@ -26,9 +26,9 @@
   <ThreatReductionHandicap>0</ThreatReductionHandicap>
   <MaxGlobalNpcGrids>20</MaxGlobalNpcGrids>
   <PlayerWatcherTimerTrigger>10</PlayerWatcherTimerTrigger>
-  <NpcDistanceCheckTimerTrigger>1</NpcDistanceCheckTimerTrigger>
+  <NpcDistanceCheckTimerTrigger>10</NpcDistanceCheckTimerTrigger>
   <NpcOwnershipCheckTimerTrigger>10</NpcOwnershipCheckTimerTrigger>
-  <NpcCleanupCheckTimerTrigger>60</NpcCleanupCheckTimerTrigger>
+  <NpcCleanupCheckTimerTrigger>15</NpcCleanupCheckTimerTrigger>
   <NpcBlacklistCheckTimerTrigger>5</NpcBlacklistCheckTimerTrigger>
   <SpawnedVoxelCheckTimerTrigger>900</SpawnedVoxelCheckTimerTrigger>
   <SpawnedVoxelMinimumGridDistance>1000</SpawnedVoxelMinimumGridDistance>
@@ -96,6 +96,21 @@
     <string>Encounter Mercenary Wreckage</string>
     <string>Encounter Minefield</string>
     <string>Encounter Debris A</string>
+    <string>Reaver-Group-Single-Aggressor</string>
+    <string>Reaver-Group-Single-Berserker</string>
+    <string>Reaver-Group-Single-Butcher</string>
+    <string>Reaver-Group-Single-Carver</string>
+    <string>Reaver-Group-Single-Charger</string>
+    <string>Reaver-Group-Single-CrimsonTormentor</string>
+    <string>Reaver-Group-Single-Crimson</string>
+    <string>Reaver-Group-Single-Devourer</string>
+    <string>Reaver-Group-Single-Impaler</string>
+    <string>Reaver-Group-Single-Invader-Space</string>
+    <string>Reaver-Group-Single-Mutilator</string>
+    <string>Reaver-Group-Single-Scourge</string>
+    <string>Reaver-Group-Single-Slayer</string>
+    <string>Reaver-Group-Single-Thrasher</string>
+    <string>Reaver-Group-Single-Tormentor</string>
   </NpcSpawnGroupBlacklist>
   <WeaponReplacerBlacklist>
     <string>1380830774</string>
