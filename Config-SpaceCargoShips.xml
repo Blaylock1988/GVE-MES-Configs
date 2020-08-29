@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-16"?>
 <ConfigSpaceCargoShips xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <ModVersion>1.081</ModVersion>
+  <ModVersion>1.09</ModVersion>
   <FirstSpawnTime>300</FirstSpawnTime>
-  <MinSpawnTime>900</MinSpawnTime>
-  <MaxSpawnTime>1800</MaxSpawnTime>
-  <MaxShipsPerArea>10</MaxShipsPerArea>
-  <AreaSize>50000</AreaSize>
+  <MinSpawnTime>780</MinSpawnTime>
+  <MaxSpawnTime>1020</MaxSpawnTime>
+  <MaxShipsPerArea>15</MaxShipsPerArea>
+  <AreaSize>15000</AreaSize>
   <MaxSpawnAttempts>10</MaxSpawnAttempts>
   <MinPathDistanceFromPlayer>2000</MinPathDistanceFromPlayer>
-  <MaxPathDistanceFromPlayer>4500</MaxPathDistanceFromPlayer>
+  <MaxPathDistanceFromPlayer>4000</MaxPathDistanceFromPlayer>
   <MinLunarSpawnHeight>3500</MinLunarSpawnHeight>
   <MaxLunarSpawnHeight>4500</MaxLunarSpawnHeight>
   <MinSpawnDistFromEntities>1000</MinSpawnDistFromEntities>
-  <MinPathDistance>15000</MinPathDistance>
-  <MaxPathDistance>20000</MaxPathDistance>
+  <MinPathDistance>10000</MinPathDistance>
+  <MaxPathDistance>15000</MaxPathDistance>
   <PathCheckStep>150</PathCheckStep>
   <DespawnDistanceFromEndPath>1000</DespawnDistanceFromEndPath>
-  <DespawnDistanceFromPlayer>5000</DespawnDistanceFromPlayer>
+  <DespawnDistanceFromPlayer>1000</DespawnDistanceFromPlayer>
   <UseMinimumSpeed>false</UseMinimumSpeed>
   <MinimumSpeed>10</MinimumSpeed>
   <UseSpeedOverride>false</UseSpeedOverride>
@@ -38,20 +38,20 @@
   <CleanupUseDistance>true</CleanupUseDistance>
   <CleanupUseTimer>true</CleanupUseTimer>
   <CleanupUseBlockLimit>false</CleanupUseBlockLimit>
-  <CleanupDistanceStartsTimer>true</CleanupDistanceStartsTimer>
+  <CleanupDistanceStartsTimer>false</CleanupDistanceStartsTimer>
   <CleanupResetTimerWithinDistance>false</CleanupResetTimerWithinDistance>
-  <CleanupDistanceTrigger>10000</CleanupDistanceTrigger>
-  <CleanupTimerTrigger>60</CleanupTimerTrigger>
+  <CleanupDistanceTrigger>1000</CleanupDistanceTrigger>
+  <CleanupTimerTrigger>15</CleanupTimerTrigger>
   <CleanupBlockLimitTrigger>0</CleanupBlockLimitTrigger>
   <CleanupIncludeUnowned>true</CleanupIncludeUnowned>
-  <CleanupUnpoweredOverride>true</CleanupUnpoweredOverride>
-  <CleanupUnpoweredDistanceTrigger>2000</CleanupUnpoweredDistanceTrigger>
-  <CleanupUnpoweredTimerTrigger>300</CleanupUnpoweredTimerTrigger>
+  <CleanupUnpoweredOverride>false</CleanupUnpoweredOverride>
+  <CleanupUnpoweredDistanceTrigger>1000</CleanupUnpoweredDistanceTrigger>
+  <CleanupUnpoweredTimerTrigger>15</CleanupUnpoweredTimerTrigger>
   <UseBlockDisable>true</UseBlockDisable>
   <DisableAirVent>true</DisableAirVent>
   <DisableAntenna>false</DisableAntenna>
   <DisableArtificialMass>false</DisableArtificialMass>
-  <DisableAssembler>false</DisableAssembler>
+  <DisableAssembler>true</DisableAssembler>
   <DisableBattery>false</DisableBattery>
   <DisableBeacon>false</DisableBeacon>
   <DisableCollector>true</DisableCollector>
@@ -69,7 +69,7 @@
   <DisableGyro>false</DisableGyro>
   <DisableInteriorTurret>false</DisableInteriorTurret>
   <DisableLandingGear>true</DisableLandingGear>
-  <DisableLaserAntenna>false</DisableLaserAntenna>
+  <DisableLaserAntenna>true</DisableLaserAntenna>
   <DisableLcdPanel>false</DisableLcdPanel>
   <DisableLightBlock>false</DisableLightBlock>
   <DisableMedicalRoom>true</DisableMedicalRoom>
@@ -81,7 +81,7 @@
   <DisableProgrammableBlock>false</DisableProgrammableBlock>
   <DisableProjector>false</DisableProjector>
   <DisableReactor>false</DisableReactor>
-  <DisableRefinery>false</DisableRefinery>
+  <DisableRefinery>true</DisableRefinery>
   <DisableRocketLauncher>false</DisableRocketLauncher>
   <DisableReloadableRocketLauncher>false</DisableReloadableRocketLauncher>
   <DisableRotor>false</DisableRotor>
@@ -92,5 +92,5 @@
   <DisableTimerBlock>false</DisableTimerBlock>
   <DisableThruster>false</DisableThruster>
   <DisableWelder>false</DisableWelder>
-  <DisableUpgradeModule>false</DisableUpgradeModule>
+  <DisableUpgradeModule>true</DisableUpgradeModule>
 </ConfigSpaceCargoShips>
