@@ -8,12 +8,12 @@
   <CleanupUseBlockLimit>false</CleanupUseBlockLimit>
   <CleanupDistanceStartsTimer>false</CleanupDistanceStartsTimer>
   <CleanupResetTimerWithinDistance>false</CleanupResetTimerWithinDistance>
-  <CleanupDistanceTrigger>1000</CleanupDistanceTrigger>
+  <CleanupDistanceTrigger>500</CleanupDistanceTrigger>
   <CleanupTimerTrigger>15</CleanupTimerTrigger>
   <CleanupBlockLimitTrigger>0</CleanupBlockLimitTrigger>
   <CleanupIncludeUnowned>true</CleanupIncludeUnowned>
   <CleanupUnpoweredOverride>false</CleanupUnpoweredOverride>
-  <CleanupUnpoweredDistanceTrigger>1000</CleanupUnpoweredDistanceTrigger>
+  <CleanupUnpoweredDistanceTrigger>500</CleanupUnpoweredDistanceTrigger>
   <CleanupUnpoweredTimerTrigger>15</CleanupUnpoweredTimerTrigger>
   <UseBlockDisable>true</UseBlockDisable>
   <DisableAirVent>true</DisableAirVent>
