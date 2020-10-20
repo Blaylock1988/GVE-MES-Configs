@@ -34,7 +34,7 @@
   <CleanupDistanceStartsTimer>false</CleanupDistanceStartsTimer>
   <CleanupResetTimerWithinDistance>false</CleanupResetTimerWithinDistance>
   <CleanupDistanceTrigger>500</CleanupDistanceTrigger>
-  <CleanupTimerTrigger>60</CleanupTimerTrigger>
+  <CleanupTimerTrigger>15</CleanupTimerTrigger>
   <CleanupBlockLimitTrigger>0</CleanupBlockLimitTrigger>
   <CleanupIncludeUnowned>true</CleanupIncludeUnowned>
   <CleanupUnpoweredOverride>false</CleanupUnpoweredOverride>
