@@ -26,12 +26,15 @@
   <RandomWeaponChance>100</RandomWeaponChance>
   <RandomWeaponSizeVariance>-1</RandomWeaponSizeVariance>
   <UseGlobalBlockReplacer>true</UseGlobalBlockReplacer>
+  <GlobalBlockReplacerReference />
   <GlobalBlockReplacerProfiles>
     <string>MES-ProprietaryValuableBlocks</string>
     <string>MES-ProprietaryCompRichBlocks</string>
     <string>MES-DisposableNpcBeacons</string>
   </GlobalBlockReplacerProfiles>
   <UseNonPhysicalAmmoForNPCs>true</UseNonPhysicalAmmoForNPCs>
-  <RemoveContainerInventoryFromNPCs>false</RemoveContainerInventoryFromNPCs>
-  <ModVersion>1.093</ModVersion>
+  <RemoveContainerInventoryFromNPCs>true</RemoveContainerInventoryFromNPCs>
+  <ReplenishedAmmoMaxAmount>30</ReplenishedAmmoMaxAmount>
+  <ReplenishedFuelMaxAmount>100</ReplenishedFuelMaxAmount>
+  <ModVersion>1.117</ModVersion>
 </ConfigGrids>

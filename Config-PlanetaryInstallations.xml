@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-16"?>
 <ConfigPlanetaryInstallations xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <ModVersion>1.081</ModVersion>
+  <ModVersion>1.117</ModVersion>
   <PlayerSpawnCooldown>300</PlayerSpawnCooldown>
   <SpawnTimerTrigger>60</SpawnTimerTrigger>
   <PlayerDistanceSpawnTrigger>6000</PlayerDistanceSpawnTrigger>

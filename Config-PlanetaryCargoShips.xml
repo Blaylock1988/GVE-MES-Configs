@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-16"?>
 <ConfigPlanetaryCargoShips xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <ModVersion>1.081</ModVersion>
+  <ModVersion>1.117</ModVersion>
   <FirstSpawnTime>300</FirstSpawnTime>
   <MinSpawnTime>780</MinSpawnTime>
   <MaxSpawnTime>1020</MaxSpawnTime>
-  <MaxShipsPerArea>1</MaxShipsPerArea>
+  <MaxShipsPerArea>2</MaxShipsPerArea>
   <AreaSize>20000</AreaSize>
   <MaxSpawnAttempts>25</MaxSpawnAttempts>
   <PlayerSurfaceAltitude>6000</PlayerSurfaceAltitude>
@@ -19,7 +19,7 @@
   <MaxPathDistance>15000</MaxPathDistance>
   <PathStepCheckDistance>100</PathStepCheckDistance>
   <DespawnDistanceFromEndPath>750</DespawnDistanceFromEndPath>
-  <DespawnDistanceFromPlayer>15000</DespawnDistanceFromPlayer>
+  <DespawnDistanceFromPlayer>1000</DespawnDistanceFromPlayer>
   <DespawnAltitude>5000</DespawnAltitude>
   <UseMinimumSpeed>false</UseMinimumSpeed>
   <MinimumSpeed>10</MinimumSpeed>
@@ -29,17 +29,17 @@
   <MaxSpawnGroupFrequency>5</MaxSpawnGroupFrequency>
   <UseCleanupSettings>true</UseCleanupSettings>
   <CleanupUseDistance>true</CleanupUseDistance>
-  <CleanupUseTimer>true</CleanupUseTimer>
+  <CleanupUseTimer>false</CleanupUseTimer>
   <CleanupUseBlockLimit>false</CleanupUseBlockLimit>
   <CleanupDistanceStartsTimer>false</CleanupDistanceStartsTimer>
   <CleanupResetTimerWithinDistance>false</CleanupResetTimerWithinDistance>
-  <CleanupDistanceTrigger>500</CleanupDistanceTrigger>
-  <CleanupTimerTrigger>15</CleanupTimerTrigger>
+  <CleanupDistanceTrigger>25000</CleanupDistanceTrigger>
+  <CleanupTimerTrigger>1800</CleanupTimerTrigger>
   <CleanupBlockLimitTrigger>0</CleanupBlockLimitTrigger>
   <CleanupIncludeUnowned>true</CleanupIncludeUnowned>
-  <CleanupUnpoweredOverride>false</CleanupUnpoweredOverride>
-  <CleanupUnpoweredDistanceTrigger>500</CleanupUnpoweredDistanceTrigger>
-  <CleanupUnpoweredTimerTrigger>300</CleanupUnpoweredTimerTrigger>
+  <CleanupUnpoweredOverride>true</CleanupUnpoweredOverride>
+  <CleanupUnpoweredDistanceTrigger>25000</CleanupUnpoweredDistanceTrigger>
+  <CleanupUnpoweredTimerTrigger>900</CleanupUnpoweredTimerTrigger>
   <UseBlockDisable>false</UseBlockDisable>
   <DisableAirVent>false</DisableAirVent>
   <DisableAntenna>false</DisableAntenna>
