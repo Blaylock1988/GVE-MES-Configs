@@ -3,34 +3,34 @@
   <PlayerSpawnCooldown>600</PlayerSpawnCooldown>
   <SpawnTimerTrigger>1200</SpawnTimerTrigger>
   <SignalActiveTimer>1200</SignalActiveTimer>
-  <MaxShipsPerArea>6</MaxShipsPerArea>
-  <AreaSize>25000</AreaSize>
+  <MaxShipsPerArea>1</MaxShipsPerArea>
+  <AreaSize>1000000</AreaSize>
   <TriggerDistance>300</TriggerDistance>
   <PathCalculationAttempts>25</PathCalculationAttempts>
-  <MinCoordsDistanceSpace>6000</MinCoordsDistanceSpace>
-  <MaxCoordsDistanceSpace>8000</MaxCoordsDistanceSpace>
+  <MinCoordsDistanceSpace>50000</MinCoordsDistanceSpace>
+  <MaxCoordsDistanceSpace>1000000</MaxCoordsDistanceSpace>
   <MinCoordsDistancePlanet>6000</MinCoordsDistancePlanet>
   <MaxCoordsDistancePlanet>8000</MaxCoordsDistancePlanet>
-  <PlayersWithinDistance>25000</PlayersWithinDistance>
+  <PlayersWithinDistance>999999999</PlayersWithinDistance>
   <MinPlanetAltitude>1000</MinPlanetAltitude>
-  <MinSignalDistFromOtherEntities>2000</MinSignalDistFromOtherEntities>
-  <MinSpawnDistFromCoords>2500</MinSpawnDistFromCoords>
-  <MaxSpawnDistFromCoords>4000</MaxSpawnDistFromCoords>
+  <MinSignalDistFromOtherEntities>20000</MinSignalDistFromOtherEntities>
+  <MinSpawnDistFromCoords>5000</MinSpawnDistFromCoords>
+  <MaxSpawnDistFromCoords>10000</MaxSpawnDistFromCoords>
   <MinAirDensity>0.65</MinAirDensity>
   <UseMaxSpawnGroupFrequency>false</UseMaxSpawnGroupFrequency>
   <MaxSpawnGroupFrequency>5</MaxSpawnGroupFrequency>
-  <DespawnDistanceFromPlayer>1000</DespawnDistanceFromPlayer>
+  <DespawnDistanceFromPlayer>50000</DespawnDistanceFromPlayer>
   <UseCleanupSettings>true</UseCleanupSettings>
   <CleanupUseDistance>true</CleanupUseDistance>
-  <CleanupUseTimer>false</CleanupUseTimer>
+  <CleanupUseTimer>true</CleanupUseTimer>
   <CleanupUseBlockLimit>false</CleanupUseBlockLimit>
   <CleanupDistanceStartsTimer>false</CleanupDistanceStartsTimer>
   <CleanupResetTimerWithinDistance>false</CleanupResetTimerWithinDistance>
-  <CleanupDistanceTrigger>50000</CleanupDistanceTrigger>
-  <CleanupTimerTrigger>1800</CleanupTimerTrigger>
+  <CleanupDistanceTrigger>500</CleanupDistanceTrigger>
+  <CleanupTimerTrigger>15</CleanupTimerTrigger>
   <CleanupBlockLimitTrigger>0</CleanupBlockLimitTrigger>
   <CleanupIncludeUnowned>true</CleanupIncludeUnowned>
-  <CleanupUnpoweredOverride>true</CleanupUnpoweredOverride>
+  <CleanupUnpoweredOverride>false</CleanupUnpoweredOverride>
   <CleanupUnpoweredDistanceTrigger>25000</CleanupUnpoweredDistanceTrigger>
   <CleanupUnpoweredTimerTrigger>900</CleanupUnpoweredTimerTrigger>
   <UseBlockDisable>false</UseBlockDisable>
