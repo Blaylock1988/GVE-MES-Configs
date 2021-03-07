@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-16"?>
 <ConfigRandomEncounters xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ModVersion>1.117</ModVersion>
-  <PlayerSpawnCooldown>300</PlayerSpawnCooldown>
+  <PlayerSpawnCooldown>600</PlayerSpawnCooldown>
   <SpawnTimerTrigger>60</SpawnTimerTrigger>
   <PlayerTravelDistance>0</PlayerTravelDistance>
-  <MaxShipsPerArea>10</MaxShipsPerArea>
+  <MaxShipsPerArea>6</MaxShipsPerArea>
   <AreaSize>25000</AreaSize>
   <MinSpawnDistanceFromPlayer>3000</MinSpawnDistanceFromPlayer>
   <MaxSpawnDistanceFromPlayer>5000</MaxSpawnDistanceFromPlayer>
