@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-16"?>
 <ConfigCustomBlocks xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <ModVersion>1.117</ModVersion>
+  <ModVersion>1.121</ModVersion>
   <ProprietaryReactorFuelAmount>100</ProprietaryReactorFuelAmount>
   <UseDisposableBeaconPlayerDistance>true</UseDisposableBeaconPlayerDistance>
   <UseDisposableBeaconInactivity>true</UseDisposableBeaconInactivity>

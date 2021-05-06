@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-16"?>
 <ConfigGeneral xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <ModVersion>1.117</ModVersion>
+  <ModVersion>1.121</ModVersion>
   <DebugMode>false</DebugMode>
-  <EnableSpaceCargoShips>true</EnableSpaceCargoShips>
+  <EnableSpaceCargoShips>false</EnableSpaceCargoShips>
   <EnablePlanetaryCargoShips>false</EnablePlanetaryCargoShips>
   <EnableRandomEncounters>true</EnableRandomEncounters>
-  <EnablePlanetaryInstallations>false</EnablePlanetaryInstallations>
-  <EnableBossEncounters>false</EnableBossEncounters>
+  <EnablePlanetaryInstallations>true</EnablePlanetaryInstallations>
+  <EnableBossEncounters>true</EnableBossEncounters>
   <EnableCreatureSpawns>false</EnableCreatureSpawns>
-  <EnableLegacySpaceCargoShipDetection>false</EnableLegacySpaceCargoShipDetection>
+  <EnableLegacySpaceCargoShipDetection>true</EnableLegacySpaceCargoShipDetection>
   <UseModIdSelectionForSpawning>false</UseModIdSelectionForSpawning>
   <UseWeightedModIdSelection>false</UseWeightedModIdSelection>
   <LowWeightModIdSpawnGroups>10</LowWeightModIdSpawnGroups>
