@@ -64,11 +64,11 @@
   <DisableWelder>false</DisableWelder>
   <DisableUpgradeModule>false</DisableUpgradeModule>
   <ModVersion>1.121</ModVersion>
-  <PlayerSpawnCooldown>300</PlayerSpawnCooldown>
-  <SpawnTimerTrigger>60</SpawnTimerTrigger>
+  <PlayerSpawnCooldown>3600</PlayerSpawnCooldown>
+  <SpawnTimerTrigger>3600</SpawnTimerTrigger>
   <PlayerDistanceSpawnTrigger>6000</PlayerDistanceSpawnTrigger>
-  <MaxShipsPerArea>2</MaxShipsPerArea>
-  <AreaSize>99999</AreaSize>
+  <MaxShipsPerArea>1</MaxShipsPerArea>
+  <AreaSize>999999</AreaSize>
   <PlayerMaximumDistanceFromSurface>6000</PlayerMaximumDistanceFromSurface>
   <MinimumSpawnDistanceFromPlayers>15000</MinimumSpawnDistanceFromPlayers>
   <MaximumSpawnDistanceFromPlayers>60000</MaximumSpawnDistanceFromPlayers>
@@ -77,10 +77,10 @@
   <MinimumSpawnDistanceFromOtherGrids>2500</MinimumSpawnDistanceFromOtherGrids>
   <MinimumTerrainVariance>-2.5</MinimumTerrainVariance>
   <MaximumTerrainVariance>2.5</MaximumTerrainVariance>
-  <AggressiveTerrainCheck>true</AggressiveTerrainCheck>
+  <AggressiveTerrainCheck>false</AggressiveTerrainCheck>
   <TerrainCheckIncrementDistance>10</TerrainCheckIncrementDistance>
   <SmallTerrainCheckDistance>40</SmallTerrainCheckDistance>
-  <MediumSpawnChanceBaseValue>15</MediumSpawnChanceBaseValue>
+  <MediumSpawnChanceBaseValue>30</MediumSpawnChanceBaseValue>
   <MediumSpawnChanceIncrement>15</MediumSpawnChanceIncrement>
   <MediumSpawnDistanceIncrement>2000</MediumSpawnDistanceIncrement>
   <MediumTerrainCheckDistance>70</MediumTerrainCheckDistance>
@@ -91,5 +91,5 @@
   <RemoveVoxelsIfGridRemoved>true</RemoveVoxelsIfGridRemoved>
   <UseMaxSpawnGroupFrequency>false</UseMaxSpawnGroupFrequency>
   <MaxSpawnGroupFrequency>5</MaxSpawnGroupFrequency>
-  <DespawnDistanceFromPlayer>1000</DespawnDistanceFromPlayer>
+  <DespawnDistanceFromPlayer>5000</DespawnDistanceFromPlayer>
 </ConfigPlanetaryInstallations>
