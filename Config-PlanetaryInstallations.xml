@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-16"?>
 <ConfigPlanetaryInstallations xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <UseTimeout>false</UseTimeout>
-  <TimeoutRadius>25000</TimeoutRadius>
-  <TimeoutSpawnLimit>2</TimeoutSpawnLimit>
-  <TimeoutDuration>900</TimeoutDuration>
+  <UseTimeout>true</UseTimeout>
+  <TimeoutRadius>99999</TimeoutRadius>
+  <TimeoutSpawnLimit>1</TimeoutSpawnLimit>
+  <TimeoutDuration>7200</TimeoutDuration>
   <UseCleanupSettings>true</UseCleanupSettings>
   <CleanupUseDistance>true</CleanupUseDistance>
   <CleanupUseTimer>true</CleanupUseTimer>
@@ -65,8 +65,8 @@
   <DisableUpgradeModule>false</DisableUpgradeModule>
   <ModVersion>1.121</ModVersion>
   <PlayerSpawnCooldown>3600</PlayerSpawnCooldown>
-  <SpawnTimerTrigger>3600</SpawnTimerTrigger>
-  <PlayerDistanceSpawnTrigger>6000</PlayerDistanceSpawnTrigger>
+  <SpawnTimerTrigger>900</SpawnTimerTrigger>
+  <PlayerDistanceSpawnTrigger>0</PlayerDistanceSpawnTrigger>
   <MaxShipsPerArea>1</MaxShipsPerArea>
   <AreaSize>999999</AreaSize>
   <PlayerMaximumDistanceFromSurface>6000</PlayerMaximumDistanceFromSurface>

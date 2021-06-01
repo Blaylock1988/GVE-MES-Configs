@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-16"?>
 <ConfigBossEncounters xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <UseTimeout>false</UseTimeout>
-  <TimeoutRadius>10000</TimeoutRadius>
-  <TimeoutSpawnLimit>10</TimeoutSpawnLimit>
-  <TimeoutDuration>900</TimeoutDuration>
+  <UseTimeout>true</UseTimeout>
+  <TimeoutRadius>9999999</TimeoutRadius>
+  <TimeoutSpawnLimit>1</TimeoutSpawnLimit>
+  <TimeoutDuration>7200</TimeoutDuration>
   <UseCleanupSettings>true</UseCleanupSettings>
   <CleanupUseDistance>true</CleanupUseDistance>
   <CleanupUseTimer>true</CleanupUseTimer>
@@ -64,11 +64,11 @@
   <DisableWelder>false</DisableWelder>
   <DisableUpgradeModule>true</DisableUpgradeModule>
   <PlayerSpawnCooldown>3600</PlayerSpawnCooldown>
-  <SpawnTimerTrigger>3600</SpawnTimerTrigger>
+  <SpawnTimerTrigger>900</SpawnTimerTrigger>
   <SignalActiveTimer>900</SignalActiveTimer>
-  <MaxShipsPerArea>3</MaxShipsPerArea>
+  <MaxShipsPerArea>1</MaxShipsPerArea>
   <AreaSize>25000</AreaSize>
-  <TriggerDistance>1000</TriggerDistance>
+  <TriggerDistance>0</TriggerDistance>
   <PathCalculationAttempts>50</PathCalculationAttempts>
   <MinCoordsDistanceSpace>150000</MinCoordsDistanceSpace>
   <MaxCoordsDistanceSpace>250000</MaxCoordsDistanceSpace>
